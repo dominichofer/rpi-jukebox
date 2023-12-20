@@ -11,10 +11,10 @@ class Logger:
     def log(self, message: str) -> None:
         "Log a message"
         current_time = time.strftime("%H:%M:%S", time.localtime())
-        message = f"{current_time} - {message}\n"
+        message = f"{current_time} - {message}"
         print(message)
         with open(self.filename, "a", encoding="utf-8") as log_file:
-            log_file.write(message)
+            log_file.write(message + "\n")
 
 
 class FakeLogger:
