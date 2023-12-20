@@ -1,19 +1,17 @@
 """Music player module"""
-import pygame
+from pygame import mixer
 
 
 class MusicPlayer:
     "Pygame music player"
 
     def __init__(self) -> None:
-        pygame.mixer.init()
+        mixer.init()
 
     def play(self, track: str) -> None:
         "Play a track"
-        pygame.mixer.music.load(track)
-        pygame.mixer.music.play()
-        while pygame.mixer.music.get_busy():
-            pass
+        mixer.music.load(track)
+        mixer.music.play()
 
 
 class FakeMusicPlayer:
