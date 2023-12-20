@@ -9,16 +9,16 @@ if __name__ == "__main__":
         logger.log("------ Started ------")
 
         tracks = [
-            "tag.mp3",
+            "tag.mp3", # Top left
             "charlotta.mp3",
             "zjung.mp3",
             "sky.mp3",
-            "help.mp3",
+            "help.mp3", # Bottom left
+            "twist.mp3", # Top right
             "kids.mp3",
-            "ruby.mp3",
             "fox.mp3",
             "radetzky.mp3",
-            "tell.mp3",
+            "tell.mp3", # Bottom right
         ]
         logger.log(f"Tracks: {tracks}")
 
