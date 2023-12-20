@@ -1,5 +1,6 @@
 original/
 *.mp3
+log.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
