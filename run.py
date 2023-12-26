@@ -9,16 +9,16 @@ if __name__ == "__main__":
         logger.log("------ Started ------")
 
         tracks = [
-            "tag.mp3", # Top left
-            "charlotta.mp3",
-            "zjung.mp3",
+            "help.mp3", # Top left
             "sky.mp3",
-            "help.mp3", # Bottom left
-            "twist.mp3", # Top right
-            "kids.mp3",
-            "fox.mp3",
+            "zjung.mp3",
+            "charlotta.mp3",
+            "tag.mp3", # Top right
+            "tell.mp3", # Bottom left
             "radetzky.mp3",
-            "tell.mp3", # Bottom right
+            "fox.mp3",
+            "kids.mp3",
+            "twist.mp3", # Bottom right
         ]
         logger.log(f"Tracks: {tracks}")
 
@@ -32,16 +32,16 @@ if __name__ == "__main__":
 
         logger.log("Initializing buttons")
         buttons = [
-            Button(12), # Top left
-            Button(6),
-            Button(5),
+            Button(24), # Top left
             Button(25),
-            Button(24), # Bottom left
-            Button(23), # Top right
-            Button(22),
-            Button(27),
+            Button(5),
+            Button(6),
+            Button(12), # Top right
+            Button(4), # Bottom left
             Button(17),
-            Button(4), # Bottom right
+            Button(27),
+            Button(22),
+            Button(23), # Bottom right
         ]
         logger.log("Buttons ready")
 
